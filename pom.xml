@@ -30,6 +30,18 @@
             <artifactId>lombok</artifactId>
             <version>1.18.32</version>
         </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>6.0.4</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>4.0.3</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -42,7 +54,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>me.whatiscode.hallowen.game.HallowenGamePlugin</mainClass>
+                            <mainClass>me.whatiscode.halloween.game.HallowenGamePlugin</mainClass>
                             <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
                         </manifest>
                     </archive>

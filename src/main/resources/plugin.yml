@@ -1,0 +1,7 @@
+name: HallowenGame
+main: me.whatiscode.halloween.game.HallowenGamePlugin
+version: 0.1
+
+author: whatiscode
+
+description: Довольно интересный режим для хеллоуина, где целью игрока является собрать все подарки (подобие GrinchSimulator)
