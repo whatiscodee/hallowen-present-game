@@ -12,6 +12,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 @Getter
 public class HallowenPlugin extends JavaPlugin {
 
+    @Getter
     public static HallowenPlugin instance;
 
     @Override
@@ -19,4 +20,5 @@ public class HallowenPlugin extends JavaPlugin {
     public void onEnable() {
         instance = this;
     }
+
 }
